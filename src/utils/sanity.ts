@@ -22,6 +22,7 @@ export interface Post {
   _type: "post";
   _createdAt: string;
   title?: string;
+  attribution?: string;
   slug: Slug;
   excerpt?: string;
   mainImage?: ImageAsset;
